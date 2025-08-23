@@ -23,9 +23,10 @@ File-manager - система по управлению файлами.
     
     <img width="172" height="116" alt="image" src="https://github.com/user-attachments/assets/a7f2a96d-fabc-438c-a2b0-2736b2179f30" />
 
-5.  **Запустите миграции:**
+5.  **Запустите необходимые команды:**
     ```bash
     php artisan migrate
+    php artisan key:generate
     ```
 
 Функционал:
